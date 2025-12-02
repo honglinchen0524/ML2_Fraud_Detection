@@ -13,7 +13,7 @@ page = st.sidebar.radio("Navigation", ["Home", "Results"])
 @st.cache_data
 def load_data():
     y_test = pd.read_csv('data/y_test.csv')['y'].values
-    results = pd.read_csv('results/model_results.csv')
+    results = pd.read_csv('results/model_result.csv')
     probs = {
         'MLP_34': pd.read_csv('results/mlp_34.csv')['prob'].values,
         'NB_34': pd.read_csv('results/nb_34.csv')['prob'].values,
