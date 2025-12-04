@@ -3,7 +3,7 @@
 Apply Hybrid and Ensemble Machine Learning for Credit Card Fraud Detection
 
 1. Download dataset here: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-2. Save as "creditcard.csv"
+2. Save as "creditcard.csv", add under 'data' folder.
 3. Run in terminal
    mkdir data results
 4. Start preprocess
